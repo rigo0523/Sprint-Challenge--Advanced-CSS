@@ -1,1 +1,57 @@
-// Navigation code here
+// Navigation Styles here
+
+  
+    .nav-wrapper {
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        .flexDirection(column);
+        .displayFlex(center, center); // mixing used here 
+        
+       
+       h1 {
+           font-size: 4.5em;
+           @media @mobile {
+            font-size: 6em;
+          } 
+       }
+
+   
+
+    nav {
+        .displayFlex(space-around, center); //mixing used here
+        width: 70%;
+        background: white;
+       
+
+        li {
+            list-style-type: none;
+            
+            a {
+                text-decoration: none;
+                display: block;
+                font-size: 2em;
+                margin: 10px;
+                @media @mobile {
+                    font-size: 2.5em;
+                    width: 100%;
+                  } 
+                &:hover {
+                   color: white;
+                   background: @navy;
+                } // hover 
+
+            } // <a> tag 
+
+        } // li items
+    } //nav 
+
+ } // nav wrapper
+
+
+
+
+
+
+
+
